@@ -2,10 +2,16 @@ import { Grid } from '@mui/material'
 import React from 'react'
 import LocalShippingIcon from '@mui/icons-material/LocalShipping'
 import TaskAltIcon from '@mui/icons-material/TaskAlt'
+import { useNavigate } from 'react-router-dom'
 
 const OrderCard = () => {
+    const navigate = useNavigate()
+
     return (
-        <div>
+        <div
+            onClick={() => navigate(`/account/order/${5}`)}
+            className="p-5 shadow-sm shadow-black hover:shadow-2xl border"
+        >
             <Grid
                 container
                 spacing={2}
@@ -35,13 +41,18 @@ const OrderCard = () => {
 
                 <Grid item xs={4}>
                     {true && (
-                        <p>
-                            <TaskAltIcon
-                                sx={{ width: '15px', height: '15px' }}
-                                className="text-green-600 mr-2 text-sm"
-                            />
-                            <span>Deliveried On August 30</span>
-                        </p>
+                        <div>
+                            <p>
+                                <TaskAltIcon
+                                    sx={{ width: '15px', height: '15px' }}
+                                    className="text-green-600 mr-2 text-sm"
+                                />
+                                <span>Deliveried On August 30</span>
+                            </p>
+                            <p className="text-xs">
+                                Your item has been deliveried
+                            </p>
+                        </div>
                     )}
                     {false && (
                         <p>
