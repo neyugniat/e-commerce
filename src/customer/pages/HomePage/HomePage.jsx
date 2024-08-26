@@ -2,6 +2,10 @@ import React from 'react'
 import MainCarousel from '../../components/HomeCarousel/MainCarousel'
 import HomeSectionCarousel from '../../components/HomeSectionCarousel/HomeSectionCarousel'
 import { mens_kurta } from '../../../data/mens_kurta'
+import { lengha_page1 } from '../../../data/LenghaCholi'
+import { gounsPage1 } from '../../../data/gouns'
+import { kurtaPage1 } from '../../../data/kurta'
+import { dressPage1 } from '../../../data/page1'
 
 const HomePage = () => {
     return (
@@ -14,19 +18,19 @@ const HomePage = () => {
                     sectionName={"Men's Kurta"}
                 />
                 <HomeSectionCarousel
-                    data={mens_kurta}
-                    sectionName={"Men's Shoes"}
+                    data={lengha_page1}
+                    sectionName={"Men's Jeans"}
                 />
                 <HomeSectionCarousel
-                    data={mens_kurta}
-                    sectionName={"Men's Shirt"}
+                    data={gounsPage1}
+                    sectionName={"Women's Goun"}
                 />
                 <HomeSectionCarousel
-                    data={mens_kurta}
+                    data={kurtaPage1}
                     sectionName={"Women's Saree"}
                 />
                 <HomeSectionCarousel
-                    data={mens_kurta}
+                    data={dressPage1}
                     sectionName={"Women's Dress"}
                 />
             </div>

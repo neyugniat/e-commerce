@@ -5,7 +5,6 @@ import MainCarouselData from './MainCarouselData'
 
 const MainCarousel = () => {
     const imageStyle = {
-        width: '50%',
         height: 'auto',
         objectFit: 'contain',
         display: 'block',

@@ -60,6 +60,9 @@ const HomeSectionCarousel = ({ data, sectionName }) => {
 
     const items = data
         .slice(0, 15)
+        .filter((item) => {
+            return item.id
+        })
         .map((item) => <HomeSectionCard key={item.id} product={item} />)
 
     return (

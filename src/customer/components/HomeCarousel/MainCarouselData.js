@@ -1,23 +1,19 @@
 const MainCarouselData = [
     {
         id: 1,
-        image: '../assets/images/1.jpg',
+        image: 'https://www.ethnicplus.in/media/mageplaza/bannerslider/banner/image/1/0/10_5.jpg',
     },
     {
         id: 2,
-        image: '../assets/images/2.jpg',
+        image: 'https://www.ethnicplus.in/media/mageplaza/bannerslider/banner/image/1/2/12_4.jpg',
     },
     {
         id: 3,
-        image: '../assets/images/3.jpg',
+        image: 'https://www.ethnicplus.in/media/mageplaza/bannerslider/banner/image/9/_/9_8.jpg',
     },
     {
         id: 4,
-        image: '../assets/images/4.jpg',
-    },
-    {
-        id: 5,
-        image: '../assets/images/5.jpg',
+        image: 'https://www.ethnicplus.in/media/mageplaza/bannerslider/banner/image/1/1/11_4.jpg',
     },
 ]
 
