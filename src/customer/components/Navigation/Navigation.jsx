@@ -326,8 +326,8 @@ export default function Navigation() {
                                         Your Company
                                     </span>
                                     <img
-                                        src="https://res.cloudinary.com/ddkso1wxi/image/upload/v1675919455/Logo/Copy_of_Zosh_Academy_nblljp.png"
-                                        alt="Shopwithzosh"
+                                        src="./assets/images/6.png"
+                                        alt=""
                                         className="h-8 w-8 mr-2"
                                     />
                                 </Link>
